@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    min-height:100vh;
+    display:flex;
+}
+
+.container {
+    max-width: 85%;
+    margin: auto;
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width:100%;
+    max-width:400px;
+    height:auto;
+    border: 2px solid lightgrey;
+    padding: 30px 30px 120px 30px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 15px #eceeef;
+}
+
+h1, p {
+    font-family: 'Golos Text', sans-serif;
+}
+
+h1 {
+    margin-top:30px;
+}
